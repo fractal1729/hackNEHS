@@ -1,38 +1,75 @@
 <!DOCTYPE HTML>
 
-<!-- Layout for Hack New England or whatever name -->
+<!-- Layout for Prep Hacks -->
 
 <html>
 <head>
-  <title> Hack New England </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta property="og:title" content="PrepHacks 2016"/>
+  <meta property="og:image" content="Lorem Ipsum."/>
+  <meta property="og:description" content="Lorem Ipsum."/>
+  <meta property="og:url" content="Lorem Ipsum."/>
+  <title> PrepHacks 2016 </title>
 
-  <meta name='viewport' content = 'width=device-width', initial-scale=1, maximum-scale=1, user-scalable='no'>
-      <!--<link rel='stylesheet' href='assets/css/bootstrap.css'></link> -->
-      <link rel='stylesheet' href='assets/css/style.css'></link>
+  <!--Bootstrap CSS Files-->
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'></link>
+
+  <!--Bootstrap + JQuery JS Files-->
+  <script src="assets/js/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!--Custom CSS-->
+  <link rel='stylesheet' href='assets/css/custom.css'></link>
 </head>
 
 <body>
-  <div class='bg'>
-  </div>
-  <div class='content'>
-    <div class='title'>
-      MILLENNIAL HACKS
+
+<section id="navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#intro">PrepHacks</a></li>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</section>
+
+<!--Intro-->
+<section id="intro">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="section" id="header">
+         <img class="header-image" src="assets/logo.jpg">
+          <h1> PrepHacks 2016 </h1>
+          <h3> Come hack the world. Lorem Ipsum. </h3>
+          <h4>Details TBD.</h4>
+        </div>
+      </div>
     </div>
-    <div class='tagline'>
-      <p>Code will be written.</p>
-      <p>Food will be served.</p>
-      <p>Sleep will be lost.</p>
-      <p>People will be met.</p>
+
+</section>
+
+<!-- Section: sponsors -->
+<section id="sponsors" class="home-section text-center">
+    <div class="section-heading container">
+        <h2 style="float:left;">For Sponsors</h2>
     </div>
-    <div class='information'>
-      Details coming in Fall 2015
+    <div class="container">
+
+        <p>Interested in sponsoring? Contact us at <a href="mailto:sponsors@something.com">sponsors@something.com</a>.</p>
+
     </div>
-    <div class='description'>
-      Open to high-school students and younger.
-    </div>
-    <div class='sponsorship'>
-      Contact us regarding sponsorship inquiries.
-    </div>
-  </div>
+</section>
+<!-- /Section: sponsors -->
+
+
 </body>
 </html>

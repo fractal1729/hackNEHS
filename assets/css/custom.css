@@ -1,0 +1,356 @@
+@font-face {
+    font-family: AvenirMedium;
+    src: url(../fonts/AvenirNext-Medium.ttf);
+}
+
+@font-face {
+    font-family: AvenirRegular;
+    src: url(../fonts/AvenirNext-Regular.ttf);
+}
+
+* {
+	font-family: AvenirRegular, "Calibri", sans-serif;
+}
+
+.navbar-default {
+  background-color: white !important;
+  border-color: white !important;
+  color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: black;
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+.section {
+	padding-left:30px;
+	padding-right:30px;
+	padding-top: 20px;
+	padding-bottom: 43px;
+	position: relative;
+    margin-top: 0px;
+	z-index: 1;
+    margin-bottom: 0px;
+}
+
+.home-section{
+  padding-top:10px;
+  padding-bottom:100px;
+  display:block;position:relative;z-index:120
+  }
+
+.home-section:nth-child(even){
+  background:#f9f6d9
+}
+
+.content,
+.faq_content {
+	z-index: 1;
+	position: relative;
+	font-size: 3.5vmin;
+}
+
+.content {
+	margin-bottom: 60px;
+	margin-left: 20px;
+	margin-right: 30px;
+    padding:50px;
+    padding-top: 5px;;
+}f
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  	text-align: center;
+}
+
+.section p {
+	font-size: 2.8vmin;
+}
+
+.section a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.section h3 {
+	font-family: AvenirMedium, "Calibri", sans-serif;
+	font-size: 5vmin;
+	text-align: center;
+}
+
+.section h5 {
+	font-size: 3.5vmin;
+}
+
+#intro {
+  background: url(../temp-background.jpg) no-repeat center center scroll;
+  background-size:cover
+}
+
+#header {
+	text-align: center;
+	color: black;
+	position: relative;
+	padding-top: 60px;
+	width: 100%;
+    margin-bottom: 30px;
+}
+
+.info {
+	color: #8A8A8A !important;
+}
+
+#header #email {
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#welcome {
+	opacity: .9;
+	color: white;
+}
+
+#about {
+	margin-bottom: 10px;
+	color: #8A8A8A;
+}
+
+#about a {
+	text-decoration: none;
+}
+
+.hacker_question {
+	text-align: center;
+}
+
+#faq {
+	opacity: .9;
+	color: white;
+}
+
+#faq .question {
+	font-size: 3vmin;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#faq .question .q {
+	font-family: AvenirMedium, "Calibri", sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.tab-content {
+	padding: 0;
+	margin-top: -40px;
+	margin-bottom: -40px;
+}
+
+#questions {
+	margin-top: -10px;
+    padding-top: 0;
+}
+
+#sponsor {
+	color: #8A8A8A;
+}
+
+#sponsor h3 {
+	color: #FCC93E;
+}
+
+#footer {
+	opacity: .9;
+  background-color: #7081FF;
+	color: white;
+	padding: 7px;
+}
+
+#footer .social-icons {
+	text-align: center;
+}
+
+
+
+.social-icons {
+	text-align: center;
+}
+
+.social-icons img {
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #FCC93E;
+  background-color: white;
+}
+.nav-tabs > li, .nav-pills > li {
+   float:none;
+   display:inline-block;
+   zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+   text-align:center;
+}
+
+h1 {
+	font-size: 9vmin;
+}
+
+h4 {
+	font-size: 4vmin;
+}
+
+h6 {
+	font-size: 3vmin;
+}
+
+.panel-title {
+	font-size: 3.3vmin;
+}
+
+#collapseOne,
+#collapseTwo,
+#collapseThree {
+
+	border-color: #EFEFEF;
+	background: #FBFBFB;
+	font-family: AvenirMedium, "Calibri", sans-serif;
+}
+
+.panel-heading {
+	  padding: 10px 15px;
+  border: 2px solid rgb(252, 201, 62) !important;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.panel-default {
+
+/* background: linear-gradient(#FCFCFC, #FFFFFF);*/
+    background-color: rgba(252, 201, 62, 1);
+
+}
+
+.tab-content {
+    padding: 0;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.drawer{
+    text-align: left;
+    font-size: 3vmin !important;
+}
+
+.question{
+    text-align: left;
+}
+
+.header-image {
+	width: 250px;
+}
+
+#register-button{
+    background-color:white;
+    border-color: #EFEFEF;
+}
+
+h3 {
+	text-align: center;
+}
+
+.sponsor_center {
+	text-align: center;
+
+}
+
+.footer_content {
+	text-align: center;
+}
+
+.hacker_intro {
+	text-align: center;
+}
+
+.faq_email {
+	text-align: center;
+}
+
+.disclaimer{
+	font-size: 2vmin;
+	color: rgb(138, 138, 138);
+}
+/* responsive CSS */
+
+/* fix sponsor section on mobile */
+@media (max-width: 750px) {
+
+
+  #about,
+  #sponsor {
+  	padding-top: 0px;
+  }
+
+ #sponsor{
+    padding-bottom:0px;
+    }
+
+  .header-image {
+	width: 200px;
+  }
+
+  .section p,
+  .section_skewed p,
+  .panel-title {
+  	font-size: 5vmin;
+  }
+
+  #faq .question,
+  .content {
+  	font-size: 4.9vmin;
+  	margin-left: 0px;
+  	margin-right: 0px;
+  }
+
+  .section h3,
+  .section_skewed h3 {
+  	font-size: 7vmin;
+  }
+
+  .section h5 {
+	font-size: 4.5vmin;
+  }
+
+  .button-holder{
+  	text-align: left;
+  	width:100%;
+  	padding:0;
+  }
+
+  .drawer{
+    text-align: left;
+    font-size: 4vmin !important;
+  }
+
+  .content{
+      padding:0;
+      padding-top: 5px;
+  }
+}
