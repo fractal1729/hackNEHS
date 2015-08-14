@@ -1,1 +1,3 @@
-# prephacks
+# hackNEHS Website
+
+This README doesn't really have much to say yet...
