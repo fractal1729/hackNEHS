@@ -1,30 +1,27 @@
-@font-face {
-    font-family: AvenirMedium;
-    src: url(../fonts/AvenirNext-Medium.ttf);
+p {
+  font-size:20px;
 }
 
-@font-face {
-    font-family: AvenirRegular;
-    src: url(../fonts/AvenirNext-Regular.ttf);
+h2 {
+  font-size:40px;
 }
 
 * {
-	font-family: AvenirRegular, "Calibri", sans-serif;
+	font-family: "Calibri", sans-serif;
 }
 
 .navbar-default {
   background-color: white !important;
-  border-color: white !important;
-  color: black;
+  border-color: #F89E37 !important;
+  color: #F89E37;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: black;
-  color: white;
+.navbar-nav>li:hover {
+  background-color: #F89E37;
 }
 
-.navbar-default .navbar-nav>li>a {
-  color: black;
+.navbar-default .navbar-nav>li {
+  color: #464B51;
 }
 
 .section {
@@ -45,7 +42,7 @@
   }
 
 .home-section:nth-child(even){
-  background:#f9f6d9
+  background:#F89E37
 }
 
 .content,
@@ -118,64 +115,36 @@
 }
 
 #welcome {
-	opacity: .9;
-	color: white;
 }
 
 #about {
-	margin-bottom: 10px;
-	color: #8A8A8A;
-}
-
-#about a {
-	text-decoration: none;
 }
 
 .hacker_question {
-	text-align: center;
 }
 
 #faq {
-	opacity: .9;
-	color: white;
 }
 
 #faq .question {
-	font-size: 3vmin;
-	margin-top: 15px;
-	margin-bottom: 15px;
 }
 
 #faq .question .q {
-	font-family: AvenirMedium, "Calibri", sans-serif;
-	font-weight: bold;
-	font-style: italic;
 }
 
 .tab-content {
-	padding: 0;
-	margin-top: -40px;
-	margin-bottom: -40px;
 }
 
 #questions {
-	margin-top: -10px;
-    padding-top: 0;
 }
 
 #sponsor {
-	color: #8A8A8A;
 }
 
 #sponsor h3 {
-	color: #FCC93E;
 }
 
 #footer {
-	opacity: .9;
-  background-color: #7081FF;
-	color: white;
-	padding: 7px;
 }
 
 #footer .social-icons {

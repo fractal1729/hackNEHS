@@ -1,14 +1,16 @@
 var nav = $(".navbar");
 
 var menuItems = [
-	{"scroll_to": "header", "elem": $("#header")},
-	{"scroll_to": "about", "elem": $("#about")},
+	{"scroll_to": "intro", "elem": $("#intro")},
 	{"scroll_to": "welcome", "elem": $("#welcome")},
+	{"scroll_to": "about", "elem": $("#about")},
 	{"scroll_to": "faq", "elem": $("#faq")},
-	{"scroll_to": "sponsor", "elem": $("#sponsor")}
+	{"scroll_to": "participants", "elem": $("#participants")},
+	{"scroll_to": "mentors", "elem": $("#mentors")},
+	{"scroll_to": "sponsor", "elem": $("#sponsors")}
 ];
 var menuItemsLen = menuItems.length;
-var selectedMenu = "header";
+var selectedMenu = "intro";
 var scrollingToItem = false;
 
 $(window).scroll(function() {
@@ -44,8 +46,3 @@ $(".navbar-nav li a").click(function(e) {
     $(this).parent().addClass("active");
     e.preventDefault();
 });
-
-console.log("%cEnjoy looking under the hood? You're the type of person we want at MHacks! %c  ",
-	"color: #F68E20; font-weight: bold;",
-	"background-image: url('http://emojipedia.org/wp-content/uploads/2013/07/160x160x12-face-with-stuck-out-tongue-and-winking-eye.png.pagespeed.ic.Q9pZ4icXCn.jpg'); background-size: cover"
-);
