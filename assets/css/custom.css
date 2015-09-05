@@ -1,3 +1,8 @@
+body {
+  background: black;
+  font-family: 'Open Sans';
+}
+
 #header {
   text-align: center;
   color: black;
@@ -62,8 +67,19 @@ h2 {
   padding-top:10px;
   padding-bottom:100px;
   display:block;position:relative;z-index:120
-  }
+}
 
 .home-section:nth-child(even) {
-  background: #F89E37
+  background: #F89E37 !important;
+}
+
+p.lead {
+  font-size: 30px;
+  color: #F89E37;
+}
+
+h2.lead {
+  font-size: 50px;
+  color: #F89E37;
+  text-shadow: -1px 0 #FABB73, 0 1px #FABB73, 1px 0 #FABB73, 0 -1px #FABB73;
 }
