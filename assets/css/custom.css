@@ -70,6 +70,11 @@ h2 {
   display:block;position:relative;z-index:120
 }
 
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .home-section:nth-child(even) {
   background: #F89E37 !important;
 }
