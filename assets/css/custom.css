@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: white;
   font-family: 'Open Sans';
 }
 
@@ -28,6 +28,7 @@ h2 {
 
 .navbar-default .navbar-nav>.active>a {
   background-color: #F89E37 !important;
+  color: #464B51;
 }
 
 .navbar-default .navbar-nav>.active>a.home-navbar-link {
@@ -43,15 +44,15 @@ h2 {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #464B51;
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: white;
 }
 
 .navbar-default .navbar-nav>li:hover>a {
   color: #F89E37;
-}
-
-.navbar-default .navbar-nav>li {
-  color: #464B51;
 }
 
 .header-image {

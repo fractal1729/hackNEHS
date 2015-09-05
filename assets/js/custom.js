@@ -20,7 +20,7 @@ $(window).scroll(function() {
 				$(".navbar-nav li").removeClass("active");
 				$(".navbar-nav li a[scroll-to='"+scroll_to+"'").parent().addClass("active");
 				selectedMenu = scroll_to;
-				if(window.console) console.log("hi");
+				if(window.console) console.log("");
 			}
 		}
 	}
