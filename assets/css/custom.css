@@ -76,11 +76,23 @@ h2 {
 
 p.lead {
   font-size: 30px;
-  color: #F89E37;
+  color: #464B51;
 }
 
 h2.lead {
   font-size: 50px;
   color: #F89E37;
   text-shadow: -1px 0 #FABB73, 0 1px #FABB73, 1px 0 #FABB73, 0 -1px #FABB73;
+}
+
+.faq-question {
+  font-size: 25px;
+}
+
+.faq-answer {
+  font-size: 18px;
+}
+
+.faq-container {
+  padding: 10px;
 }
